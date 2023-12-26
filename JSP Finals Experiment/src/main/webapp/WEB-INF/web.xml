@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>JSP Finals Experiment</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>LoginDB</servlet-name>
+    <servlet-class>org.servlet.LoginDB</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginDB</servlet-name>
+    <url-pattern>/LoginDB</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CjZjServlet</servlet-name>
+    <servlet-class>org.servlet.CjZjServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CjZjServlet</servlet-name>
+    <url-pattern>/CjZjServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DelClass</servlet-name>
+    <servlet-class>org.servlet.DelClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DelClass</servlet-name>
+    <url-pattern>/DelClass</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddClass</servlet-name>
+    <servlet-class>org.servlet.AddClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddClass</servlet-name>
+    <url-pattern>/AddClass</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ClassRename</servlet-name>
+    <servlet-class>org.servlet.ClassRename</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClassRename</servlet-name>
+    <url-pattern>/ClassRename</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DelStu</servlet-name>
+    <servlet-class>org.servlet.DelStu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DelStu</servlet-name>
+    <url-pattern>/DelStu</url-pattern>
+  </servlet-mapping>
+   
+  <servlet>
+    <servlet-name>StuRename</servlet-name>
+    <servlet-class>org.servlet.StuRename</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StuRename</servlet-name>
+    <url-pattern>/StuRename</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddUser</servlet-name>
+    <servlet-class>org.servlet.AddUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddUser</servlet-name>
+    <url-pattern>/AddUser</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DelUser</servlet-name>
+    <servlet-class>org.servlet.DelUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DelUser</servlet-name>
+    <url-pattern>/DelUser</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UserRename</servlet-name>
+    <servlet-class>org.servlet.UserRename</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserRename</servlet-name>
+    <url-pattern>/UserRename</url-pattern>
+  </servlet-mapping>
+ 
+  
+  
+  
+  
+  
+</web-app>
